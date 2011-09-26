@@ -53,9 +53,9 @@ $config['cache_expire']	= '';
 // the PRIVATE url of the Plex Server (no trailing slash !!!!)
 // Used to retreive xml files. If your running plex server on same
 // host, prefer localhost (no name/dns resolution required = faster)
-$config['plex_local'] = 'http://localhost:32400';
+$config['plex_local'] = 'http://imac2:32400';
 // the PUBLIC url of the Plex Server (no trailing slash !!!!)
 // used in frontend for downloads and images
-$config['plex_url'] = 'http://localhost:32400';
+$config['plex_url'] = 'http://127.0.0.1:32400';
 
 
