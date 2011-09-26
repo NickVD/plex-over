@@ -67,7 +67,8 @@ class Transcode {
 		
 		if (is_relative_link($thumb))
 		{
-			$thumb = $this->ci->plex_url.$this->img_transpath.http_build_query($params);
+			// $thumb = $this->ci->plex_url.$this->img_transpath.http_build_query($params);
+			$thumb = $this->ci->plex_local.$this->img_transpath.http_build_query($params);
 		}
 	  // define the source attribute
 	  $source = ($opts->type == 'lazy') ? 'data-src' : 'src';
